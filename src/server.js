@@ -3,7 +3,7 @@ import express from 'express';
 const app=express();
 
 app.get('/hello',(req, res)=>{
-    res.send('Hello!');
+    res.send('Hello server world!');
 });
 
 app.listen(8000,()=>{
